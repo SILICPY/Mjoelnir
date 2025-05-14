@@ -1,0 +1,48 @@
+Elektronik pro Lampe:
+
+<Beschreibung>: <Mengenangabe>
+<Produktbeispiel>
+
+ESP32 D1 Mini Dev Board: 1 Stück
+https://amzn.eu/d/4D6PdJC
+
+WS2812b LED Strip (144 LEDs / m): 1 m
+https://amzn.eu/d/igvtXYB
+
+ATTiny85 Dev Board: 1 Stück
+https://amzn.eu/d/9wXMY9x
+
+USB C Breakout Board: 1 Stück
+https://amzn.eu/d/f5a8ZON
+
+3 Pin JST Steckverbinder 22 AWG (5A): 4 Paar
+https://amzn.eu/d/1D8DPcv
+
+Holz pro Lampe:
+
+<Beschreibung>: <Mengenangabe>
+
+4 mm Multiplex / Furnier: ~ 0.12 m²
+4 mm Quadratleiste: ~ 60 cm
+22 mm Rundholzstab: 18 cm
+30 mm Rundholzstab: ~ 3 cm
+3 mm Acrylglas: ~ 0.02 m²
+Beliebiges Holz für optionales Podest
+
+Sonstiges:
+
+Epoxidharz für Feinarbeiten
+Farbpigment zum Einfärben von Epoxidharz (weiß milchig)
+Epoxidharzkleber (UHU Plus Schnellfest)
+Kabel (min. Stromfestigkeit: ca. 2-3 A)
+USB-C auf USB-C Kabel
+USB-C Netzteil (min. 2A @ 5V)
+
+M3 Gewindeschraube 16 mm: 4 Stück
+https://www.bauhaus.info/gewindeschrauben/profi-depot-gewindeschraube-vz/p/10807519
+
+M3 Gewindeschraube 10 mm (oder gekürzte M3 Gewindeschraube 16 mm): 2 Stück
+https://www.bauhaus.info/gewindeschrauben/stabilit-zylinderschraube-a2/p/10790640
+
+M3 Sechskantmutter: 6 Stück
+https://www.bauhaus.info/sechskantmuttern/profi-depot-sechskantmutter-vz/p/10825618
