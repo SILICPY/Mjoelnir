@@ -1,5 +1,5 @@
 # 🔨 Mjölnir
-Eine dekorative Leuchte angelehnt an Marvels Version des Hammers Thors 
+Eine dekorative Leuchte angelehnt an Marvels Interpretation des Hammers Thors
 
 ## 📖 Dokumentation
 - [Mjölnir dokumentation](doc/)
