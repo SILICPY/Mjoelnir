@@ -1,0 +1,1050 @@
+{
+    "scenes": {
+        "rainy-complementary": {
+            "name": "Rainy Complementary",
+            "virtuals": {
+                "mjoelnir": {},
+                "alle leds": {},
+                "griff links": {
+                    "type": "rain",
+                    "config": {
+                        "background_brightness": 0.16,
+                        "background_color": "#000000",
+                        "blur": 1,
+                        "brightness": 0.32,
+                        "flip": false,
+                        "high_color": "#000000",
+                        "high_sensitivity": 0.3,
+                        "lows_color": "#ffc800",
+                        "lows_sensitivity": 0.07,
+                        "mids_color": "#000000",
+                        "mids_sensitivity": 0.3,
+                        "mirror": false,
+                        "pulse_strip": "Off",
+                        "raindrop_animation": "Laser"
+                    }
+                },
+                "griff rechts": {
+                    "type": "rain",
+                    "config": {
+                        "background_brightness": 0.16,
+                        "background_color": "#000000",
+                        "blur": 1,
+                        "brightness": 0.32,
+                        "flip": false,
+                        "high_color": "#000000",
+                        "high_sensitivity": 0.3,
+                        "lows_color": "#ffc800",
+                        "lows_sensitivity": 0.07,
+                        "mids_color": "#000000",
+                        "mids_sensitivity": 0.3,
+                        "mirror": false,
+                        "pulse_strip": "Off",
+                        "raindrop_animation": "Laser"
+                    }
+                },
+                "streifen hinten unten": {
+                    "type": "power",
+                    "config": {
+                        "background_brightness": 1,
+                        "background_color": "#000000",
+                        "bass_decay_rate": 0.05,
+                        "blur": 0,
+                        "brightness": 1,
+                        "flip": false,
+                        "gradient": "linear-gradient(90deg, #005eff 0.00%,#00ffb1 49.00%,#ff00d1 100.00%)",
+                        "gradient_roll": 0,
+                        "mirror": true,
+                        "sparks_color": "#ffffff",
+                        "sparks_decay_rate": 0.15
+                    }
+                },
+                "streifen hinten oben": {
+                    "type": "rain",
+                    "config": {
+                        "background_brightness": 0.16,
+                        "background_color": "#000000",
+                        "blur": 1,
+                        "brightness": 0.32,
+                        "flip": false,
+                        "high_color": "#000000",
+                        "high_sensitivity": 0.3,
+                        "lows_color": "#000000",
+                        "lows_sensitivity": 0.3,
+                        "mids_color": "#1b7aa3",
+                        "mids_sensitivity": 0.07,
+                        "mirror": false,
+                        "pulse_strip": "Lows",
+                        "raindrop_animation": "Blob"
+                    }
+                },
+                "ornament hinten": {
+                    "type": "real_strobe",
+                    "config": {
+                        "background_brightness": 0.59,
+                        "background_color": "#000000",
+                        "bass_strobe_decay_rate": 0.11,
+                        "blur": 5.4,
+                        "brightness": 0.61,
+                        "color_shift_delay": 1,
+                        "color_step": 0.13,
+                        "flip": false,
+                        "gradient": "linear-gradient(180deg, #000000 0.00%,#5052b7 100.00%)",
+                        "gradient_name": "Dancefloor",
+                        "gradient_roll": 0,
+                        "mirror": false,
+                        "strobe_color": "#ffffff",
+                        "strobe_decay_rate": 0.36,
+                        "strobe_width": 1
+                    }
+                },
+                "streifen vorne unten": {
+                    "type": "power",
+                    "config": {
+                        "background_brightness": 1,
+                        "background_color": "#000000",
+                        "bass_decay_rate": 0.05,
+                        "blur": 0,
+                        "brightness": 1,
+                        "flip": false,
+                        "gradient": "linear-gradient(90deg, #005eff 0.00%,#00ffb1 49.00%,#ff00d1 100.00%)",
+                        "gradient_roll": 0,
+                        "mirror": true,
+                        "sparks_color": "#ffffff",
+                        "sparks_decay_rate": 0.15
+                    }
+                },
+                "streifen vorne oben": {
+                    "type": "rain",
+                    "config": {
+                        "background_brightness": 0.16,
+                        "background_color": "#000000",
+                        "blur": 1,
+                        "brightness": 0.32,
+                        "flip": false,
+                        "high_color": "#000000",
+                        "high_sensitivity": 0.3,
+                        "lows_color": "#000000",
+                        "lows_sensitivity": 0.3,
+                        "mids_color": "#1b7aa3",
+                        "mids_sensitivity": 0.07,
+                        "mirror": false,
+                        "pulse_strip": "Lows",
+                        "raindrop_animation": "Blob"
+                    }
+                },
+                "ornament vorne": {
+                    "type": "real_strobe",
+                    "config": {
+                        "background_brightness": 0.59,
+                        "background_color": "#000000",
+                        "bass_strobe_decay_rate": 0.11,
+                        "blur": 5.4,
+                        "brightness": 0.61,
+                        "color_shift_delay": 1,
+                        "color_step": 0.13,
+                        "flip": false,
+                        "gradient": "linear-gradient(180deg, #000000 0.00%,#5052b7 100.00%)",
+                        "gradient_name": "Dancefloor",
+                        "gradient_roll": 0,
+                        "mirror": false,
+                        "strobe_color": "#ffffff",
+                        "strobe_decay_rate": 0.36,
+                        "strobe_width": 1
+                    }
+                }
+            },
+            "scene_image": "Wallpaper",
+            "scene_puturl": null,
+            "scene_tags": null,
+            "scene_payload": null,
+            "scene_midiactivate": null
+        }
+    },
+    "integrations": [],
+    "scan_on_startup": false,
+    "port_s": 8443,
+    "dev_mode": false,
+    "ui_brightness_boost": 0,
+    "user_gradients": {},
+    "flush_on_deactivate": false,
+    "virtuals": [
+        {
+            "auto_generated": false,
+            "config": {
+                "center_offset": 0,
+                "frequency_max": 15000,
+                "frequency_min": 20,
+                "grouping": 1,
+                "icon_name": "wled",
+                "mapping": "span",
+                "max_brightness": 1,
+                "name": "Mjoelnir",
+                "preview_only": false,
+                "rows": 1,
+                "transition_mode": "Add",
+                "transition_time": 0.4
+            },
+            "id": "mjoelnir",
+            "is_device": "mjoelnir",
+            "segments": [
+                [
+                    "mjoelnir",
+                    0,
+                    119,
+                    false
+                ]
+            ]
+        },
+        {
+            "auto_generated": true,
+            "config": {
+                "center_offset": 0,
+                "frequency_max": 15000,
+                "frequency_min": 20,
+                "grouping": 1,
+                "icon_name": "wled",
+                "mapping": "span",
+                "max_brightness": 1,
+                "name": "Alle LEDs",
+                "preview_only": false,
+                "rows": 1,
+                "transition_mode": "Add",
+                "transition_time": 0
+            },
+            "id": "alle leds",
+            "is_device": false,
+            "segments": [
+                [
+                    "mjoelnir",
+                    0,
+                    119,
+                    false
+                ]
+            ]
+        },
+        {
+            "auto_generated": true,
+            "config": {
+                "center_offset": 0,
+                "frequency_max": 2000,
+                "frequency_min": 20,
+                "grouping": 1,
+                "icon_name": "wled",
+                "mapping": "span",
+                "max_brightness": 1,
+                "name": "Griff links",
+                "preview_only": false,
+                "rows": 1,
+                "transition_mode": "Add",
+                "transition_time": 0
+            },
+            "effect": {
+                "config": {
+                    "background_brightness": 0.16,
+                    "background_color": "#000000",
+                    "blur": 1,
+                    "brightness": 0.32,
+                    "flip": false,
+                    "high_color": "#000000",
+                    "high_sensitivity": 0.3,
+                    "lows_color": "#ffc800",
+                    "lows_sensitivity": 0.07,
+                    "mids_color": "#000000",
+                    "mids_sensitivity": 0.3,
+                    "mirror": false,
+                    "pulse_strip": "Off",
+                    "raindrop_animation": "Laser"
+                },
+                "type": "rain"
+            },
+            "effects": {
+                "rain": {
+                    "config": {
+                        "background_brightness": 0.16,
+                        "background_color": "#000000",
+                        "blur": 1,
+                        "brightness": 0.32,
+                        "flip": false,
+                        "high_color": "#000000",
+                        "high_sensitivity": 0.3,
+                        "lows_color": "#ffc800",
+                        "lows_sensitivity": 0.07,
+                        "mids_color": "#000000",
+                        "mids_sensitivity": 0.3,
+                        "mirror": false,
+                        "pulse_strip": "Off",
+                        "raindrop_animation": "Laser"
+                    },
+                    "type": "rain"
+                }
+            },
+            "id": "griff links",
+            "is_device": false,
+            "last_effect": "rain",
+            "segments": [
+                [
+                    "mjoelnir",
+                    95,
+                    119,
+                    false
+                ]
+            ]
+        },
+        {
+            "auto_generated": true,
+            "config": {
+                "center_offset": 0,
+                "frequency_max": 2000,
+                "frequency_min": 20,
+                "grouping": 1,
+                "icon_name": "wled",
+                "mapping": "span",
+                "max_brightness": 1,
+                "name": "Griff rechts",
+                "preview_only": false,
+                "rows": 1,
+                "transition_mode": "Add",
+                "transition_time": 0
+            },
+            "effect": {
+                "config": {
+                    "background_brightness": 0.16,
+                    "background_color": "#000000",
+                    "blur": 1,
+                    "brightness": 0.32,
+                    "flip": false,
+                    "high_color": "#000000",
+                    "high_sensitivity": 0.3,
+                    "lows_color": "#ffc800",
+                    "lows_sensitivity": 0.07,
+                    "mids_color": "#000000",
+                    "mids_sensitivity": 0.3,
+                    "mirror": false,
+                    "pulse_strip": "Off",
+                    "raindrop_animation": "Laser"
+                },
+                "type": "rain"
+            },
+            "effects": {
+                "power": {
+                    "config": {
+                        "background_brightness": 1,
+                        "background_color": "#000000",
+                        "bass_decay_rate": 0.05,
+                        "blur": 0,
+                        "brightness": 1,
+                        "flip": false,
+                        "gradient": "linear-gradient(90deg, #005eff 0.00%,#00ffb1 49.00%,#ff00d1 100.00%)",
+                        "gradient_roll": 0,
+                        "mirror": true,
+                        "sparks_color": "#ffffff",
+                        "sparks_decay_rate": 0.15
+                    },
+                    "type": "power"
+                },
+                "rain": {
+                    "config": {
+                        "background_brightness": 0.16,
+                        "background_color": "#000000",
+                        "blur": 1,
+                        "brightness": 0.32,
+                        "flip": false,
+                        "high_color": "#000000",
+                        "high_sensitivity": 0.3,
+                        "lows_color": "#ffc800",
+                        "lows_sensitivity": 0.07,
+                        "mids_color": "#000000",
+                        "mids_sensitivity": 0.3,
+                        "mirror": false,
+                        "pulse_strip": "Off",
+                        "raindrop_animation": "Laser"
+                    },
+                    "type": "rain"
+                }
+            },
+            "id": "griff rechts",
+            "is_device": false,
+            "last_effect": "rain",
+            "segments": [
+                [
+                    "mjoelnir",
+                    70,
+                    94,
+                    true
+                ]
+            ]
+        },
+        {
+            "auto_generated": true,
+            "config": {
+                "center_offset": 0,
+                "frequency_max": 15000,
+                "frequency_min": 20,
+                "grouping": 1,
+                "icon_name": "wled",
+                "mapping": "span",
+                "max_brightness": 1,
+                "name": "Streifen hinten unten",
+                "preview_only": false,
+                "rows": 1,
+                "transition_mode": "Add",
+                "transition_time": 0
+            },
+            "effect": {
+                "config": {
+                    "background_brightness": 1,
+                    "background_color": "#000000",
+                    "bass_decay_rate": 0.05,
+                    "blur": 0,
+                    "brightness": 1,
+                    "flip": false,
+                    "gradient": "linear-gradient(90deg, #005eff 0.00%,#00ffb1 49.00%,#ff00d1 100.00%)",
+                    "gradient_roll": 0,
+                    "mirror": true,
+                    "sparks_color": "#ffffff",
+                    "sparks_decay_rate": 0.15
+                },
+                "type": "power"
+            },
+            "effects": {
+                "power": {
+                    "config": {
+                        "background_brightness": 1,
+                        "background_color": "#000000",
+                        "bass_decay_rate": 0.05,
+                        "blur": 0,
+                        "brightness": 1,
+                        "flip": false,
+                        "gradient": "linear-gradient(90deg, #005eff 0.00%,#00ffb1 49.00%,#ff00d1 100.00%)",
+                        "gradient_roll": 0,
+                        "mirror": true,
+                        "sparks_color": "#ffffff",
+                        "sparks_decay_rate": 0.15
+                    },
+                    "type": "power"
+                }
+            },
+            "id": "streifen hinten unten",
+            "is_device": false,
+            "last_effect": "power",
+            "segments": [
+                [
+                    "mjoelnir",
+                    0,
+                    15,
+                    false
+                ]
+            ]
+        },
+        {
+            "auto_generated": true,
+            "config": {
+                "center_offset": 0,
+                "frequency_max": 15000,
+                "frequency_min": 20,
+                "grouping": 1,
+                "icon_name": "wled",
+                "mapping": "span",
+                "max_brightness": 1,
+                "name": "Streifen hinten oben",
+                "preview_only": false,
+                "rows": 1,
+                "transition_mode": "Add",
+                "transition_time": 0
+            },
+            "effect": {
+                "config": {
+                    "background_brightness": 0.16,
+                    "background_color": "#000000",
+                    "blur": 1,
+                    "brightness": 0.32,
+                    "flip": false,
+                    "high_color": "#000000",
+                    "high_sensitivity": 0.3,
+                    "lows_color": "#000000",
+                    "lows_sensitivity": 0.3,
+                    "mids_color": "#1b7aa3",
+                    "mids_sensitivity": 0.07,
+                    "mirror": false,
+                    "pulse_strip": "Lows",
+                    "raindrop_animation": "Blob"
+                },
+                "type": "rain"
+            },
+            "effects": {
+                "rain": {
+                    "config": {
+                        "background_brightness": 0.16,
+                        "background_color": "#000000",
+                        "blur": 1,
+                        "brightness": 0.32,
+                        "flip": false,
+                        "high_color": "#000000",
+                        "high_sensitivity": 0.3,
+                        "lows_color": "#000000",
+                        "lows_sensitivity": 0.3,
+                        "mids_color": "#1b7aa3",
+                        "mids_sensitivity": 0.07,
+                        "mirror": false,
+                        "pulse_strip": "Lows",
+                        "raindrop_animation": "Blob"
+                    },
+                    "type": "rain"
+                }
+            },
+            "id": "streifen hinten oben",
+            "is_device": false,
+            "last_effect": "rain",
+            "segments": [
+                [
+                    "mjoelnir",
+                    19,
+                    34,
+                    false
+                ]
+            ]
+        },
+        {
+            "auto_generated": true,
+            "config": {
+                "center_offset": 0,
+                "frequency_max": 15000,
+                "frequency_min": 20,
+                "grouping": 1,
+                "icon_name": "wled",
+                "mapping": "span",
+                "max_brightness": 1,
+                "name": "Ornament hinten",
+                "preview_only": false,
+                "rows": 1,
+                "transition_mode": "Add",
+                "transition_time": 0
+            },
+            "effect": {
+                "config": {
+                    "background_brightness": 0.59,
+                    "background_color": "#000000",
+                    "bass_strobe_decay_rate": 0.11,
+                    "blur": 5.4,
+                    "brightness": 0.61,
+                    "color_shift_delay": 1,
+                    "color_step": 0.13,
+                    "flip": false,
+                    "gradient": "linear-gradient(180deg, #000000 0.00%,#5052b7 100.00%)",
+                    "gradient_name": "Dancefloor",
+                    "gradient_roll": 0,
+                    "mirror": false,
+                    "strobe_color": "#ffffff",
+                    "strobe_decay_rate": 0.36,
+                    "strobe_width": 1
+                },
+                "type": "real_strobe"
+            },
+            "effects": {
+                "real_strobe": {
+                    "config": {
+                        "background_brightness": 0.59,
+                        "background_color": "#000000",
+                        "bass_strobe_decay_rate": 0.11,
+                        "blur": 5.4,
+                        "brightness": 0.61,
+                        "color_shift_delay": 1,
+                        "color_step": 0.13,
+                        "flip": false,
+                        "gradient": "linear-gradient(180deg, #000000 0.00%,#5052b7 100.00%)",
+                        "gradient_name": "Dancefloor",
+                        "gradient_roll": 0,
+                        "mirror": false,
+                        "strobe_color": "#ffffff",
+                        "strobe_decay_rate": 0.36,
+                        "strobe_width": 1
+                    },
+                    "type": "real_strobe"
+                }
+            },
+            "id": "ornament hinten",
+            "is_device": false,
+            "last_effect": "real_strobe",
+            "segments": [
+                [
+                    "mjoelnir",
+                    16,
+                    18,
+                    false
+                ]
+            ]
+        },
+        {
+            "auto_generated": true,
+            "config": {
+                "center_offset": 0,
+                "frequency_max": 15000,
+                "frequency_min": 20,
+                "grouping": 1,
+                "icon_name": "wled",
+                "mapping": "span",
+                "max_brightness": 1,
+                "name": "Streifen vorne unten",
+                "preview_only": false,
+                "rows": 1,
+                "transition_mode": "Add",
+                "transition_time": 0
+            },
+            "effect": {
+                "config": {
+                    "background_brightness": 1,
+                    "background_color": "#000000",
+                    "bass_decay_rate": 0.05,
+                    "blur": 0,
+                    "brightness": 1,
+                    "flip": false,
+                    "gradient": "linear-gradient(90deg, #005eff 0.00%,#00ffb1 49.00%,#ff00d1 100.00%)",
+                    "gradient_roll": 0,
+                    "mirror": true,
+                    "sparks_color": "#ffffff",
+                    "sparks_decay_rate": 0.15
+                },
+                "type": "power"
+            },
+            "effects": {
+                "blade_power_plus": {
+                    "config": {
+                        "background_brightness": 1,
+                        "background_color": "#000000",
+                        "blur": 2,
+                        "brightness": 1,
+                        "decay": 0.7,
+                        "fix_hues": true,
+                        "flip": true,
+                        "frequency_range": "Lows (beat+bass)",
+                        "gradient": "#1b7aa3",
+                        "gradient_roll": 0,
+                        "mirror": true,
+                        "multiplier": 0.68
+                    },
+                    "type": "blade_power_plus"
+                },
+                "pitchSpectrum": {
+                    "config": {
+                        "background_brightness": 1,
+                        "background_color": "#000000",
+                        "blur": 1,
+                        "brightness": 1,
+                        "fade_rate": 0.15,
+                        "flip": false,
+                        "gradient": "linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(255, 120, 0) 14%, rgb(255, 200, 0) 28%, rgb(0, 255, 0) 42%, rgb(0, 199, 140) 56%, rgb(0, 0, 255) 70%, rgb(128, 0, 128) 84%, rgb(255, 0, 178) 98%)",
+                        "gradient_roll": 0,
+                        "mirror": true,
+                        "responsiveness": 0.15
+                    },
+                    "type": "pitchSpectrum"
+                },
+                "power": {
+                    "config": {
+                        "background_brightness": 1,
+                        "background_color": "#000000",
+                        "bass_decay_rate": 0.05,
+                        "blur": 0,
+                        "brightness": 1,
+                        "flip": false,
+                        "gradient": "linear-gradient(90deg, #005eff 0.00%,#00ffb1 49.00%,#ff00d1 100.00%)",
+                        "gradient_roll": 0,
+                        "mirror": true,
+                        "sparks_color": "#ffffff",
+                        "sparks_decay_rate": 0.15
+                    },
+                    "type": "power"
+                },
+                "rain": {
+                    "config": {
+                        "background_brightness": 0.16,
+                        "background_color": "#000000",
+                        "blur": 1,
+                        "brightness": 0.32,
+                        "flip": false,
+                        "high_color": "#000000",
+                        "high_sensitivity": 0.3,
+                        "lows_color": "#000000",
+                        "lows_sensitivity": 0.3,
+                        "mids_color": "#1b7aa3",
+                        "mids_sensitivity": 0.07,
+                        "mirror": false,
+                        "pulse_strip": "Lows",
+                        "raindrop_animation": "Blob"
+                    },
+                    "type": "rain"
+                }
+            },
+            "id": "streifen vorne unten",
+            "is_device": false,
+            "last_effect": "power",
+            "segments": [
+                [
+                    "mjoelnir",
+                    35,
+                    50,
+                    false
+                ]
+            ]
+        },
+        {
+            "auto_generated": true,
+            "config": {
+                "center_offset": 0,
+                "frequency_max": 15000,
+                "frequency_min": 20,
+                "grouping": 1,
+                "icon_name": "wled",
+                "mapping": "span",
+                "max_brightness": 1,
+                "name": "Streifen vorne oben",
+                "preview_only": false,
+                "rows": 1,
+                "transition_mode": "Add",
+                "transition_time": 0
+            },
+            "effect": {
+                "config": {
+                    "background_brightness": 0.16,
+                    "background_color": "#000000",
+                    "blur": 1,
+                    "brightness": 0.32,
+                    "flip": false,
+                    "high_color": "#000000",
+                    "high_sensitivity": 0.3,
+                    "lows_color": "#000000",
+                    "lows_sensitivity": 0.3,
+                    "mids_color": "#1b7aa3",
+                    "mids_sensitivity": 0.07,
+                    "mirror": false,
+                    "pulse_strip": "Lows",
+                    "raindrop_animation": "Blob"
+                },
+                "type": "rain"
+            },
+            "effects": {
+                "rain": {
+                    "config": {
+                        "background_brightness": 0.16,
+                        "background_color": "#000000",
+                        "blur": 1,
+                        "brightness": 0.32,
+                        "flip": false,
+                        "high_color": "#000000",
+                        "high_sensitivity": 0.3,
+                        "lows_color": "#000000",
+                        "lows_sensitivity": 0.3,
+                        "mids_color": "#1b7aa3",
+                        "mids_sensitivity": 0.07,
+                        "mirror": false,
+                        "pulse_strip": "Lows",
+                        "raindrop_animation": "Blob"
+                    },
+                    "type": "rain"
+                }
+            },
+            "id": "streifen vorne oben",
+            "is_device": false,
+            "last_effect": "rain",
+            "segments": [
+                [
+                    "mjoelnir",
+                    54,
+                    69,
+                    false
+                ]
+            ]
+        },
+        {
+            "auto_generated": true,
+            "config": {
+                "center_offset": 0,
+                "frequency_max": 15000,
+                "frequency_min": 20,
+                "grouping": 1,
+                "icon_name": "wled",
+                "mapping": "span",
+                "max_brightness": 1,
+                "name": "Ornament vorne",
+                "preview_only": false,
+                "rows": 1,
+                "transition_mode": "Add",
+                "transition_time": 0
+            },
+            "effect": {
+                "config": {
+                    "background_brightness": 0.59,
+                    "background_color": "#000000",
+                    "bass_strobe_decay_rate": 0.11,
+                    "blur": 5.4,
+                    "brightness": 0.61,
+                    "color_shift_delay": 1,
+                    "color_step": 0.13,
+                    "flip": false,
+                    "gradient": "linear-gradient(180deg, #000000 0.00%,#5052b7 100.00%)",
+                    "gradient_name": "Dancefloor",
+                    "gradient_roll": 0,
+                    "mirror": false,
+                    "strobe_color": "#ffffff",
+                    "strobe_decay_rate": 0.36,
+                    "strobe_width": 1
+                },
+                "type": "real_strobe"
+            },
+            "effects": {
+                "real_strobe": {
+                    "config": {
+                        "background_brightness": 0.59,
+                        "background_color": "#000000",
+                        "bass_strobe_decay_rate": 0.11,
+                        "blur": 5.4,
+                        "brightness": 0.61,
+                        "color_shift_delay": 1,
+                        "color_step": 0.13,
+                        "flip": false,
+                        "gradient": "linear-gradient(180deg, #000000 0.00%,#5052b7 100.00%)",
+                        "gradient_name": "Dancefloor",
+                        "gradient_roll": 0,
+                        "mirror": false,
+                        "strobe_color": "#ffffff",
+                        "strobe_decay_rate": 0.36,
+                        "strobe_width": 1
+                    },
+                    "type": "real_strobe"
+                }
+            },
+            "id": "ornament vorne",
+            "is_device": false,
+            "last_effect": "real_strobe",
+            "segments": [
+                [
+                    "mjoelnir",
+                    51,
+                    53,
+                    false
+                ]
+            ]
+        }
+    ],
+    "host": "0.0.0.0",
+    "user_presets": {
+        "power": {
+            "frequency-meter": {
+                "config": {
+                    "background_brightness": 1,
+                    "background_color": "#000000",
+                    "bass_decay_rate": 0.05,
+                    "blur": 0,
+                    "brightness": 1,
+                    "flip": false,
+                    "gradient": "linear-gradient(90deg, #005eff 0.00%,#00ffb1 49.00%,#ff00d1 100.00%)",
+                    "gradient_roll": 0,
+                    "mirror": true,
+                    "sparks_color": "#ffffff",
+                    "sparks_decay_rate": 0.15
+                },
+                "name": "Frequency Meter"
+            }
+        },
+        "rain": {
+            "bass-laser": {
+                "config": {
+                    "background_brightness": 0.16,
+                    "background_color": "#000000",
+                    "blur": 1,
+                    "brightness": 0.32,
+                    "flip": false,
+                    "high_color": "#000000",
+                    "high_sensitivity": 0.3,
+                    "lows_color": "#ffc800",
+                    "lows_sensitivity": 0.07,
+                    "mids_color": "#000000",
+                    "mids_sensitivity": 0.3,
+                    "mirror": false,
+                    "pulse_strip": "Off",
+                    "raindrop_animation": "Laser"
+                },
+                "name": "Bass Laser"
+            },
+            "petrol-rain": {
+                "config": {
+                    "background_brightness": 0.16,
+                    "background_color": "#000000",
+                    "blur": 1,
+                    "brightness": 0.32,
+                    "flip": false,
+                    "high_color": "#000000",
+                    "high_sensitivity": 0.3,
+                    "lows_color": "#000000",
+                    "lows_sensitivity": 0.3,
+                    "mids_color": "#1b7aa3",
+                    "mids_sensitivity": 0.07,
+                    "mirror": false,
+                    "pulse_strip": "Lows",
+                    "raindrop_animation": "Blob"
+                },
+                "name": "Petrol Rain"
+            }
+        },
+        "real_strobe": {
+            "multi-strobe": {
+                "config": {
+                    "background_brightness": 0.59,
+                    "background_color": "#000000",
+                    "bass_strobe_decay_rate": 0.11,
+                    "blur": 5.4,
+                    "brightness": 0.61,
+                    "color_shift_delay": 1,
+                    "color_step": 0.13,
+                    "flip": false,
+                    "gradient": "linear-gradient(180deg, #000000 0.00%,#5052b7 100.00%)",
+                    "gradient_name": "Dancefloor",
+                    "gradient_roll": 0,
+                    "mirror": false,
+                    "strobe_color": "#ffffff",
+                    "strobe_decay_rate": 0.36,
+                    "strobe_width": 1
+                },
+                "name": "Multi Strobe"
+            }
+        },
+        "scan": {
+            "scan-purple": {
+                "config": {
+                    "advanced": false,
+                    "background_brightness": 1,
+                    "background_color": "#0f0f35",
+                    "blur": 1.4,
+                    "bounce": false,
+                    "brightness": 1,
+                    "color_intensity": true,
+                    "color_scan": "#e70ee7",
+                    "count": 1,
+                    "flip": false,
+                    "frequency_range": "Lows (beat+bass)",
+                    "full_grad": false,
+                    "gradient": "linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(255, 120, 0) 14%, rgb(255, 200, 0) 28%, rgb(0, 255, 0) 42%, rgb(0, 199, 140) 56%, rgb(0, 0, 255) 70%, rgb(128, 0, 128) 84%, rgb(255, 0, 178) 98%)",
+                    "gradient_roll": 0,
+                    "mirror": false,
+                    "modulate": true,
+                    "modulation_effect": "breath",
+                    "modulation_speed": 0.94,
+                    "multiplier": 3.1,
+                    "scan_width": 28,
+                    "speed": 50,
+                    "use_grad": false
+                },
+                "name": "Scan Purple"
+            }
+        }
+    },
+    "devices": [
+        {
+            "config": {
+                "center_offset": 0,
+                "create_segments": true,
+                "icon_name": "wled",
+                "ip_address": "mjoelnir.local",
+                "name": "Mjoelnir",
+                "pixel_count": 120,
+                "refresh_rate": 62,
+                "rgbw_led": false,
+                "sync_mode": "DDP",
+                "timeout": 1
+            },
+            "id": "mjoelnir",
+            "type": "wled"
+        }
+    ],
+    "port": 8888,
+    "configuration_version": "2.3.3",
+    "create_segments": true,
+    "audio": {
+        "audio_device": 17,
+        "delay_ms": 0,
+        "fft_size": 4096,
+        "mic_rate": 44100,
+        "min_volume": 0.2,
+        "onset_method": "hfc",
+        "pitch_method": "yinfast",
+        "pitch_tolerance": 0.8,
+        "sample_rate": 60,
+        "tempo_method": "default"
+    },
+    "user_colors": {
+        "Petrol": "#1b7aa3"
+    },
+    "transmission_mode": "compressed",
+    "wled_preferences": {
+        "dmx_address_start": {
+            "setting": 1,
+            "user_enabled": false
+        },
+        "force_max_brightness": {
+            "setting": false,
+            "user_enabled": false
+        },
+        "inactivity_timeout": {
+            "setting": 1,
+            "user_enabled": false
+        },
+        "realtime_dmx_mode": {
+            "setting": "MultiRGB",
+            "user_enabled": false
+        },
+        "realtime_gamma_enabled": {
+            "setting": false,
+            "user_enabled": false
+        },
+        "start_universe_setting": {
+            "setting": 1,
+            "user_enabled": false
+        },
+        "wled_preferred_mode": {
+            "setting": "UDP",
+            "user_enabled": false
+        }
+    },
+    "visualisation_fps": 1,
+    "visualisation_maxlen": 256,
+    "melbanks": {
+        "coeffs_type": "matt_mel",
+        "max_frequencies": [
+            350,
+            2000,
+            15000
+        ],
+        "min_frequency": 20,
+        "peak_isolation": 0.4,
+        "samples": 24
+    },
+    "global_brightness": 1,
+    "melbank_collection": [
+        {
+            "id": "melbank-0",
+            "config": {
+                "max_frequency": 350,
+                "min_frequency": 20,
+                "name": "Melbank 0"
+            }
+        },
+        {
+            "id": "melbank-1",
+            "config": {
+                "max_frequency": 2000,
+                "min_frequency": 20,
+                "name": "Melbank 1"
+            }
+        },
+        {
+            "id": "melbank-2",
+            "config": {
+                "max_frequency": 15000,
+                "min_frequency": 20,
+                "name": "Melbank 2"
+            }
+        }
+    ],
+    "global_transitions": true
+}
