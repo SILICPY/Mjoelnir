@@ -1,4 +1,169 @@
 {
+    "host": "0.0.0.0",
+    "melbanks": {
+        "coeffs_type": "matt_mel",
+        "max_frequencies": [
+            350,
+            2000,
+            15000
+        ],
+        "min_frequency": 20,
+        "peak_isolation": 0.4,
+        "samples": 24
+    },
+    "create_segments": true,
+    "user_gradients": {},
+    "flush_on_deactivate": false,
+    "dev_mode": false,
+    "port_s": 8443,
+    "visualisation_maxlen": 256,
+    "ui_brightness_boost": 0,
+    "scan_on_startup": false,
+    "visualisation_fps": 1,
+    "user_presets": {
+        "power": {
+            "frequency-meter": {
+                "config": {
+                    "background_brightness": 1,
+                    "background_color": "#000000",
+                    "bass_decay_rate": 0.05,
+                    "blur": 0,
+                    "brightness": 1,
+                    "flip": false,
+                    "gradient": "linear-gradient(90deg, #005eff 0.00%,#00ffb1 49.00%,#ff00d1 100.00%)",
+                    "gradient_roll": 0,
+                    "mirror": true,
+                    "sparks_color": "#ffffff",
+                    "sparks_decay_rate": 0.15
+                },
+                "name": "Frequency Meter"
+            }
+        },
+        "rain": {
+            "petrol-rain": {
+                "config": {
+                    "background_brightness": 0.16,
+                    "background_color": "#000000",
+                    "blur": 1,
+                    "brightness": 0.32,
+                    "flip": false,
+                    "high_color": "#000000",
+                    "high_sensitivity": 0.3,
+                    "lows_color": "#000000",
+                    "lows_sensitivity": 0.3,
+                    "mids_color": "#1b7aa3",
+                    "mids_sensitivity": 0.07,
+                    "mirror": false,
+                    "pulse_strip": "Lows",
+                    "raindrop_animation": "Blob"
+                },
+                "name": "Petrol Rain"
+            },
+            "bass-laser": {
+                "name": "Bass Laser",
+                "config": {
+                    "background_brightness": 0.16,
+                    "background_color": "#000000",
+                    "blur": 1,
+                    "brightness": 0.32,
+                    "flip": false,
+                    "high_color": "#000000",
+                    "high_sensitivity": 0.3,
+                    "lows_color": "#ff7800",
+                    "lows_sensitivity": 0.07,
+                    "mids_color": "#000000",
+                    "mids_sensitivity": 0.3,
+                    "mirror": false,
+                    "pulse_strip": "Off",
+                    "raindrop_animation": "Laser"
+                }
+            }
+        },
+        "real_strobe": {
+            "multi-strobe": {
+                "config": {
+                    "background_brightness": 0.59,
+                    "background_color": "#000000",
+                    "bass_strobe_decay_rate": 0.11,
+                    "blur": 5.4,
+                    "brightness": 0.61,
+                    "color_shift_delay": 1,
+                    "color_step": 0.13,
+                    "flip": false,
+                    "gradient": "linear-gradient(180deg, #000000 0.00%,#5052b7 100.00%)",
+                    "gradient_name": "Dancefloor",
+                    "gradient_roll": 0,
+                    "mirror": false,
+                    "strobe_color": "#ffffff",
+                    "strobe_decay_rate": 0.36,
+                    "strobe_width": 1
+                },
+                "name": "Multi Strobe"
+            }
+        },
+        "scan": {
+            "scan-purple": {
+                "config": {
+                    "advanced": false,
+                    "background_brightness": 1,
+                    "background_color": "#0f0f35",
+                    "blur": 1.4,
+                    "bounce": false,
+                    "brightness": 1,
+                    "color_intensity": true,
+                    "color_scan": "#e70ee7",
+                    "count": 1,
+                    "flip": false,
+                    "frequency_range": "Lows (beat+bass)",
+                    "full_grad": false,
+                    "gradient": "linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(255, 120, 0) 14%, rgb(255, 200, 0) 28%, rgb(0, 255, 0) 42%, rgb(0, 199, 140) 56%, rgb(0, 0, 255) 70%, rgb(128, 0, 128) 84%, rgb(255, 0, 178) 98%)",
+                    "gradient_roll": 0,
+                    "mirror": false,
+                    "modulate": true,
+                    "modulation_effect": "breath",
+                    "modulation_speed": 0.94,
+                    "multiplier": 3.1,
+                    "scan_width": 28,
+                    "speed": 50,
+                    "use_grad": false
+                },
+                "name": "Scan Purple"
+            }
+        }
+    },
+    "port": 8888,
+    "integrations": [],
+    "wled_preferences": {
+        "dmx_address_start": {
+            "setting": 1,
+            "user_enabled": false
+        },
+        "force_max_brightness": {
+            "setting": false,
+            "user_enabled": false
+        },
+        "inactivity_timeout": {
+            "setting": 1,
+            "user_enabled": false
+        },
+        "realtime_dmx_mode": {
+            "setting": "MultiRGB",
+            "user_enabled": false
+        },
+        "realtime_gamma_enabled": {
+            "setting": false,
+            "user_enabled": false
+        },
+        "start_universe_setting": {
+            "setting": 1,
+            "user_enabled": false
+        },
+        "wled_preferred_mode": {
+            "setting": "UDP",
+            "user_enabled": false
+        }
+    },
+    "transmission_mode": "compressed",
     "scenes": {
         "rainy-complementary": {
             "name": "Rainy Complementary",
@@ -15,7 +180,7 @@
                         "flip": false,
                         "high_color": "#000000",
                         "high_sensitivity": 0.3,
-                        "lows_color": "#ffc800",
+                        "lows_color": "#ff7800",
                         "lows_sensitivity": 0.07,
                         "mids_color": "#000000",
                         "mids_sensitivity": 0.3,
@@ -34,7 +199,7 @@
                         "flip": false,
                         "high_color": "#000000",
                         "high_sensitivity": 0.3,
-                        "lows_color": "#ffc800",
+                        "lows_color": "#ff7800",
                         "lows_sensitivity": 0.07,
                         "mids_color": "#000000",
                         "mids_sensitivity": 0.3,
@@ -161,13 +326,36 @@
             "scene_midiactivate": null
         }
     },
-    "integrations": [],
-    "scan_on_startup": false,
-    "port_s": 8443,
-    "dev_mode": false,
-    "ui_brightness_boost": 0,
-    "user_gradients": {},
-    "flush_on_deactivate": false,
+    "melbank_collection": [
+        {
+            "id": "melbank-0",
+            "config": {
+                "max_frequency": 350,
+                "min_frequency": 20,
+                "name": "Melbank 0"
+            }
+        },
+        {
+            "id": "melbank-1",
+            "config": {
+                "max_frequency": 2000,
+                "min_frequency": 20,
+                "name": "Melbank 1"
+            }
+        },
+        {
+            "id": "melbank-2",
+            "config": {
+                "max_frequency": 15000,
+                "min_frequency": 20,
+                "name": "Melbank 2"
+            }
+        }
+    ],
+    "global_brightness": 1,
+    "user_colors": {
+        "Petrol": "#1b7aa3"
+    },
     "virtuals": [
         {
             "auto_generated": false,
@@ -239,27 +427,9 @@
                 "transition_mode": "Add",
                 "transition_time": 0
             },
-            "effect": {
-                "config": {
-                    "background_brightness": 0.16,
-                    "background_color": "#000000",
-                    "blur": 1,
-                    "brightness": 0.32,
-                    "flip": false,
-                    "high_color": "#000000",
-                    "high_sensitivity": 0.3,
-                    "lows_color": "#ffc800",
-                    "lows_sensitivity": 0.07,
-                    "mids_color": "#000000",
-                    "mids_sensitivity": 0.3,
-                    "mirror": false,
-                    "pulse_strip": "Off",
-                    "raindrop_animation": "Laser"
-                },
-                "type": "rain"
-            },
             "effects": {
                 "rain": {
+                    "type": "rain",
                     "config": {
                         "background_brightness": 0.16,
                         "background_color": "#000000",
@@ -268,15 +438,14 @@
                         "flip": false,
                         "high_color": "#000000",
                         "high_sensitivity": 0.3,
-                        "lows_color": "#ffc800",
+                        "lows_color": "#ff7800",
                         "lows_sensitivity": 0.07,
                         "mids_color": "#000000",
                         "mids_sensitivity": 0.3,
                         "mirror": false,
                         "pulse_strip": "Off",
                         "raindrop_animation": "Laser"
-                    },
-                    "type": "rain"
+                    }
                 }
             },
             "id": "griff links",
@@ -307,25 +476,6 @@
                 "transition_mode": "Add",
                 "transition_time": 0
             },
-            "effect": {
-                "config": {
-                    "background_brightness": 0.16,
-                    "background_color": "#000000",
-                    "blur": 1,
-                    "brightness": 0.32,
-                    "flip": false,
-                    "high_color": "#000000",
-                    "high_sensitivity": 0.3,
-                    "lows_color": "#ffc800",
-                    "lows_sensitivity": 0.07,
-                    "mids_color": "#000000",
-                    "mids_sensitivity": 0.3,
-                    "mirror": false,
-                    "pulse_strip": "Off",
-                    "raindrop_animation": "Laser"
-                },
-                "type": "rain"
-            },
             "effects": {
                 "power": {
                     "config": {
@@ -344,6 +494,7 @@
                     "type": "power"
                 },
                 "rain": {
+                    "type": "rain",
                     "config": {
                         "background_brightness": 0.16,
                         "background_color": "#000000",
@@ -352,15 +503,14 @@
                         "flip": false,
                         "high_color": "#000000",
                         "high_sensitivity": 0.3,
-                        "lows_color": "#ffc800",
+                        "lows_color": "#ff7800",
                         "lows_sensitivity": 0.07,
                         "mids_color": "#000000",
                         "mids_sensitivity": 0.3,
                         "mirror": false,
                         "pulse_strip": "Off",
                         "raindrop_animation": "Laser"
-                    },
-                    "type": "rain"
+                    }
                 }
             },
             "id": "griff rechts",
@@ -391,22 +541,6 @@
                 "transition_mode": "Add",
                 "transition_time": 0
             },
-            "effect": {
-                "config": {
-                    "background_brightness": 1,
-                    "background_color": "#000000",
-                    "bass_decay_rate": 0.05,
-                    "blur": 0,
-                    "brightness": 1,
-                    "flip": false,
-                    "gradient": "linear-gradient(90deg, #005eff 0.00%,#00ffb1 49.00%,#ff00d1 100.00%)",
-                    "gradient_roll": 0,
-                    "mirror": true,
-                    "sparks_color": "#ffffff",
-                    "sparks_decay_rate": 0.15
-                },
-                "type": "power"
-            },
             "effects": {
                 "power": {
                     "config": {
@@ -433,7 +567,7 @@
                     "mjoelnir",
                     0,
                     15,
-                    false
+                    true
                 ]
             ]
         },
@@ -452,25 +586,6 @@
                 "rows": 1,
                 "transition_mode": "Add",
                 "transition_time": 0
-            },
-            "effect": {
-                "config": {
-                    "background_brightness": 0.16,
-                    "background_color": "#000000",
-                    "blur": 1,
-                    "brightness": 0.32,
-                    "flip": false,
-                    "high_color": "#000000",
-                    "high_sensitivity": 0.3,
-                    "lows_color": "#000000",
-                    "lows_sensitivity": 0.3,
-                    "mids_color": "#1b7aa3",
-                    "mids_sensitivity": 0.07,
-                    "mirror": false,
-                    "pulse_strip": "Lows",
-                    "raindrop_animation": "Blob"
-                },
-                "type": "rain"
             },
             "effects": {
                 "rain": {
@@ -501,7 +616,7 @@
                     "mjoelnir",
                     19,
                     34,
-                    false
+                    true
                 ]
             ]
         },
@@ -520,26 +635,6 @@
                 "rows": 1,
                 "transition_mode": "Add",
                 "transition_time": 0
-            },
-            "effect": {
-                "config": {
-                    "background_brightness": 0.59,
-                    "background_color": "#000000",
-                    "bass_strobe_decay_rate": 0.11,
-                    "blur": 5.4,
-                    "brightness": 0.61,
-                    "color_shift_delay": 1,
-                    "color_step": 0.13,
-                    "flip": false,
-                    "gradient": "linear-gradient(180deg, #000000 0.00%,#5052b7 100.00%)",
-                    "gradient_name": "Dancefloor",
-                    "gradient_roll": 0,
-                    "mirror": false,
-                    "strobe_color": "#ffffff",
-                    "strobe_decay_rate": 0.36,
-                    "strobe_width": 1
-                },
-                "type": "real_strobe"
             },
             "effects": {
                 "real_strobe": {
@@ -590,22 +685,6 @@
                 "rows": 1,
                 "transition_mode": "Add",
                 "transition_time": 0
-            },
-            "effect": {
-                "config": {
-                    "background_brightness": 1,
-                    "background_color": "#000000",
-                    "bass_decay_rate": 0.05,
-                    "blur": 0,
-                    "brightness": 1,
-                    "flip": false,
-                    "gradient": "linear-gradient(90deg, #005eff 0.00%,#00ffb1 49.00%,#ff00d1 100.00%)",
-                    "gradient_roll": 0,
-                    "mirror": true,
-                    "sparks_color": "#ffffff",
-                    "sparks_decay_rate": 0.15
-                },
-                "type": "power"
             },
             "effects": {
                 "blade_power_plus": {
@@ -682,8 +761,8 @@
             "segments": [
                 [
                     "mjoelnir",
-                    35,
-                    50,
+                    54,
+                    69,
                     false
                 ]
             ]
@@ -703,25 +782,6 @@
                 "rows": 1,
                 "transition_mode": "Add",
                 "transition_time": 0
-            },
-            "effect": {
-                "config": {
-                    "background_brightness": 0.16,
-                    "background_color": "#000000",
-                    "blur": 1,
-                    "brightness": 0.32,
-                    "flip": false,
-                    "high_color": "#000000",
-                    "high_sensitivity": 0.3,
-                    "lows_color": "#000000",
-                    "lows_sensitivity": 0.3,
-                    "mids_color": "#1b7aa3",
-                    "mids_sensitivity": 0.07,
-                    "mirror": false,
-                    "pulse_strip": "Lows",
-                    "raindrop_animation": "Blob"
-                },
-                "type": "rain"
             },
             "effects": {
                 "rain": {
@@ -750,8 +810,8 @@
             "segments": [
                 [
                     "mjoelnir",
-                    54,
-                    69,
+                    35,
+                    50,
                     false
                 ]
             ]
@@ -771,26 +831,6 @@
                 "rows": 1,
                 "transition_mode": "Add",
                 "transition_time": 0
-            },
-            "effect": {
-                "config": {
-                    "background_brightness": 0.59,
-                    "background_color": "#000000",
-                    "bass_strobe_decay_rate": 0.11,
-                    "blur": 5.4,
-                    "brightness": 0.61,
-                    "color_shift_delay": 1,
-                    "color_step": 0.13,
-                    "flip": false,
-                    "gradient": "linear-gradient(180deg, #000000 0.00%,#5052b7 100.00%)",
-                    "gradient_name": "Dancefloor",
-                    "gradient_roll": 0,
-                    "mirror": false,
-                    "strobe_color": "#ffffff",
-                    "strobe_decay_rate": 0.36,
-                    "strobe_width": 1
-                },
-                "type": "real_strobe"
             },
             "effects": {
                 "real_strobe": {
@@ -827,118 +867,7 @@
             ]
         }
     ],
-    "host": "0.0.0.0",
-    "user_presets": {
-        "power": {
-            "frequency-meter": {
-                "config": {
-                    "background_brightness": 1,
-                    "background_color": "#000000",
-                    "bass_decay_rate": 0.05,
-                    "blur": 0,
-                    "brightness": 1,
-                    "flip": false,
-                    "gradient": "linear-gradient(90deg, #005eff 0.00%,#00ffb1 49.00%,#ff00d1 100.00%)",
-                    "gradient_roll": 0,
-                    "mirror": true,
-                    "sparks_color": "#ffffff",
-                    "sparks_decay_rate": 0.15
-                },
-                "name": "Frequency Meter"
-            }
-        },
-        "rain": {
-            "bass-laser": {
-                "config": {
-                    "background_brightness": 0.16,
-                    "background_color": "#000000",
-                    "blur": 1,
-                    "brightness": 0.32,
-                    "flip": false,
-                    "high_color": "#000000",
-                    "high_sensitivity": 0.3,
-                    "lows_color": "#ffc800",
-                    "lows_sensitivity": 0.07,
-                    "mids_color": "#000000",
-                    "mids_sensitivity": 0.3,
-                    "mirror": false,
-                    "pulse_strip": "Off",
-                    "raindrop_animation": "Laser"
-                },
-                "name": "Bass Laser"
-            },
-            "petrol-rain": {
-                "config": {
-                    "background_brightness": 0.16,
-                    "background_color": "#000000",
-                    "blur": 1,
-                    "brightness": 0.32,
-                    "flip": false,
-                    "high_color": "#000000",
-                    "high_sensitivity": 0.3,
-                    "lows_color": "#000000",
-                    "lows_sensitivity": 0.3,
-                    "mids_color": "#1b7aa3",
-                    "mids_sensitivity": 0.07,
-                    "mirror": false,
-                    "pulse_strip": "Lows",
-                    "raindrop_animation": "Blob"
-                },
-                "name": "Petrol Rain"
-            }
-        },
-        "real_strobe": {
-            "multi-strobe": {
-                "config": {
-                    "background_brightness": 0.59,
-                    "background_color": "#000000",
-                    "bass_strobe_decay_rate": 0.11,
-                    "blur": 5.4,
-                    "brightness": 0.61,
-                    "color_shift_delay": 1,
-                    "color_step": 0.13,
-                    "flip": false,
-                    "gradient": "linear-gradient(180deg, #000000 0.00%,#5052b7 100.00%)",
-                    "gradient_name": "Dancefloor",
-                    "gradient_roll": 0,
-                    "mirror": false,
-                    "strobe_color": "#ffffff",
-                    "strobe_decay_rate": 0.36,
-                    "strobe_width": 1
-                },
-                "name": "Multi Strobe"
-            }
-        },
-        "scan": {
-            "scan-purple": {
-                "config": {
-                    "advanced": false,
-                    "background_brightness": 1,
-                    "background_color": "#0f0f35",
-                    "blur": 1.4,
-                    "bounce": false,
-                    "brightness": 1,
-                    "color_intensity": true,
-                    "color_scan": "#e70ee7",
-                    "count": 1,
-                    "flip": false,
-                    "frequency_range": "Lows (beat+bass)",
-                    "full_grad": false,
-                    "gradient": "linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(255, 120, 0) 14%, rgb(255, 200, 0) 28%, rgb(0, 255, 0) 42%, rgb(0, 199, 140) 56%, rgb(0, 0, 255) 70%, rgb(128, 0, 128) 84%, rgb(255, 0, 178) 98%)",
-                    "gradient_roll": 0,
-                    "mirror": false,
-                    "modulate": true,
-                    "modulation_effect": "breath",
-                    "modulation_speed": 0.94,
-                    "multiplier": 3.1,
-                    "scan_width": 28,
-                    "speed": 50,
-                    "use_grad": false
-                },
-                "name": "Scan Purple"
-            }
-        }
-    },
+    "configuration_version": "2.3.3",
     "devices": [
         {
             "config": {
@@ -957,9 +886,6 @@
             "type": "wled"
         }
     ],
-    "port": 8888,
-    "configuration_version": "2.3.3",
-    "create_segments": true,
     "audio": {
         "audio_device": 17,
         "delay_ms": 0,
@@ -972,79 +898,5 @@
         "sample_rate": 60,
         "tempo_method": "default"
     },
-    "user_colors": {
-        "Petrol": "#1b7aa3"
-    },
-    "transmission_mode": "compressed",
-    "wled_preferences": {
-        "dmx_address_start": {
-            "setting": 1,
-            "user_enabled": false
-        },
-        "force_max_brightness": {
-            "setting": false,
-            "user_enabled": false
-        },
-        "inactivity_timeout": {
-            "setting": 1,
-            "user_enabled": false
-        },
-        "realtime_dmx_mode": {
-            "setting": "MultiRGB",
-            "user_enabled": false
-        },
-        "realtime_gamma_enabled": {
-            "setting": false,
-            "user_enabled": false
-        },
-        "start_universe_setting": {
-            "setting": 1,
-            "user_enabled": false
-        },
-        "wled_preferred_mode": {
-            "setting": "UDP",
-            "user_enabled": false
-        }
-    },
-    "visualisation_fps": 1,
-    "visualisation_maxlen": 256,
-    "melbanks": {
-        "coeffs_type": "matt_mel",
-        "max_frequencies": [
-            350,
-            2000,
-            15000
-        ],
-        "min_frequency": 20,
-        "peak_isolation": 0.4,
-        "samples": 24
-    },
-    "global_brightness": 1,
-    "melbank_collection": [
-        {
-            "id": "melbank-0",
-            "config": {
-                "max_frequency": 350,
-                "min_frequency": 20,
-                "name": "Melbank 0"
-            }
-        },
-        {
-            "id": "melbank-1",
-            "config": {
-                "max_frequency": 2000,
-                "min_frequency": 20,
-                "name": "Melbank 1"
-            }
-        },
-        {
-            "id": "melbank-2",
-            "config": {
-                "max_frequency": 15000,
-                "min_frequency": 20,
-                "name": "Melbank 2"
-            }
-        }
-    ],
     "global_transitions": true
 }
