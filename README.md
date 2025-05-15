@@ -1,6 +1,6 @@
-# Mjölnir
-a decorative lamp based on Marvel's interpretation of Thor's hammer
+# 🔨 Mjölnir
+Eine dekorative Leuchte angelehnt an Marvels Version des Hammers Thors 
 
-## Documentation
-- [Mjölnir documentation](doc/)
-- [WLED documentation](https://kno.wled.ge/)
+## 📖 Dokumentation
+- [Mjölnir dokumentation](doc/)
+- [WLED dokumentation](https://kno.wled.ge/)
