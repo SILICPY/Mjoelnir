@@ -33,4 +33,3 @@ Eine dekorative Leuchte angelehnt an Marvels Interpretation des Hammers Thors
 | Problem | Erklärung | Lösungsansatz |
 | --- | --- | --- |
 | Mittlere **LEDs** leuchten **rot** auf, <br> keine Ansteuerungsmöglichkeit | Falsches **Netzteil** verwendet; <br> Falsches **Kabel** verwendet | Verwende ein Netzteil, welches <br> **mindestens 5V ⎓ 2.4A** zur Verfügung stellt; <br> Verwende ein **USB-C zu USB-C** Kabel |
-| 
