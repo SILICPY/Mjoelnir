@@ -2,7 +2,7 @@
 Eine dekorative Leuchte angelehnt an Marvels Interpretation des Hammers Thors
 
 ## 📖 Dokumentation
-[//]: # (- [Mjölnir dokumentation](doc/))
+<!-- - [Mjölnir dokumentation](doc/) -->
 - [WLED Dokumentation](https://kno.wled.ge/) - ESP32 LED Firmware
 - [LedFX Dokumentation](https://docs.ledfx.app/en/stable/) - Rhythmuserkennungssoftware
 
@@ -13,17 +13,17 @@ Eine dekorative Leuchte angelehnt an Marvels Interpretation des Hammers Thors
 - [x] Verbinden mit AP des ESP32
     - Netzwerkname: ```WLED-AP```
     - Passwort: ```wled1234```
-- [x] Navigiere zu (http://4.3.2.1/settings/sec)
+- [x] Navigiere zu http://4.3.2.1/settings/sec
     - [x] Hochladen der [Preset-Konfigurationsdatei](config/wled_presets_Mjoelnir.json) unter "Restore presets"
     - [x] Hochladen der [System-Konfigurationsdatei](config/wled_cfg_Mjoelnir.json) unter "Restore configuration"
 ### 🛜 WLAN Konfiguration
 - [ ] Verbinden mit neuem AP des ESP32
     - Netzwerkname: ```Mjoelnir```
     - Passwort: ```wled1234```
-- [ ] Navigiere zu (http://mjoelnir.local/settings/wifi)
+- [ ] Navigiere zu http://mjoelnir.local/settings/wifi
     - [ ] Scannen nach verfügbaren Netzwerken
     - [ ] Auswählen des eigenen Netzwerkes / WLANs aus Dropdown unter "Network name"
     - [ ] Passwort des gewählten Netzwerkes unter "Network password" eintragen
     - [ ] Bestätigen durch "Save & Connect"
 ### 💡 Nutzung
-- [ ] Während Verbindung mit Heimnetzwerk besteht: Navigiere zu (http://mjoelnir.local)
+- [ ] Während Verbindung mit Heimnetzwerk besteht: Navigiere zu http://mjoelnir.local
