@@ -27,3 +27,4 @@ Eine dekorative Leuchte angelehnt an Marvels Interpretation des Hammers Thors
     - [ ] Bestätigen durch "Save & Connect"
 ### 💡 Nutzung
 - [ ] Während Verbindung mit Heimnetzwerk besteht: Navigiere zu http://mjoelnir.local
+- [ ] [YT-Tutorial](https://www.youtube.com/watch?v=YQyN5y-gb6I) zur Verwendung der WLED Benutzeroberfläche
