@@ -8,7 +8,7 @@
 ## 🛠️ Kompilation und Upload der Firmware
 Zur Kompilation wird das [PlatformIO](https://platformio.org/) Tool verwendet.
 
-Der Upload auf den [ATTiny85 / Digispark USB](https://amzn.eu/d/9wXMY9x) erfolgt über ISP mithilfe eines [Arduino Unos](https://store.arduino.cc/products/arduino-uno-rev3)
+Der Upload auf den [ATtiny85 / Digispark USB](https://amzn.eu/d/9wXMY9x) erfolgt über ISP mithilfe eines [Arduino Unos](https://store.arduino.cc/products/arduino-uno-rev3).
 
 ![Schaltplan zur Programmierung des Digispark USB](../../doc/digispark_usb_isp.png)
 

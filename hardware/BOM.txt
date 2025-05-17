@@ -9,7 +9,7 @@ https://amzn.eu/d/4D6PdJC
 WS2812b LED Strip (144 LEDs / m): 1 m
 https://amzn.eu/d/igvtXYB
 
-ATTiny85 Dev Board: 1 Stück
+ATtiny85 / Digispark USB: 1 Stück
 https://amzn.eu/d/9wXMY9x
 
 USB C Breakout Board: 1 Stück

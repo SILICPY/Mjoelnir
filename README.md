@@ -9,7 +9,7 @@ Eine dekorative Leuchte angelehnt an Marvels Interpretation des Hammers Thors
 ## 🚀 Erste Schritte
 ### 🛠️ Systemkonfiguration
 - [x] [ESP32](https://amzn.eu/d/4D6PdJC) mit [WLED Firmware](https://github.com/wled/WLED/releases/latest) [flashen](kno.wled.ge/basics/install-binary/)
-- [x] [ATTiny85 / Digispark USB](https://amzn.eu/d/9wXMY9x) mit [USB-C Supervisor Firmware](software/usb_controller/) [flashen](https://www.instructables.com/How-to-Program-an-ATtiny-85-Digispark/)
+- [x] [ATtiny85 / Digispark USB](https://amzn.eu/d/9wXMY9x) mit [USB-C Supervisor Firmware](software/usb_controller/) [flashen](https://www.instructables.com/How-to-Program-an-ATtiny-85-Digispark/)
 - [x] Verbinden mit AP des ESP32
     - Netzwerkname: `WLED-AP`
     - Passwort: `wled1234`
