@@ -10,6 +10,10 @@ Zur Kompilation wird das [PlatformIO](https://platformio.org/) Tool verwendet.
 
 Der Upload auf den [ATtiny85 / Digispark USB](https://amzn.eu/d/9wXMY9x) erfolgt über ISP mithilfe eines [Arduino Unos](https://store.arduino.cc/products/arduino-uno-rev3).
 
+### Vorbereitung
+
+Schließe den ATtiny85 / Digispark USB wie folgt an den Arduino Uno an:
+
 ![Schaltplan zur Programmierung des Digispark USB](../../doc/digispark_usb_isp.png)
 
 Stelle nach Anschluss des Arduino Unos an deinen Computer sicher, dass der Wert der Option `upload_port` in der [platformio.ini](./platformio.ini) Konfigurationsdatei dem [Port des Arduinos](https://www.mathworks.com/help/matlab/supportpkg/find-arduino-port-on-windows-mac-and-linux.html) entspricht.
