@@ -1,7 +1,7 @@
 # 🔨 Mjölnir
 Eine dekorative Leuchte angelehnt an Marvels Interpretation des Hammers Thors
 
-![](/doc/_MG_4856.JPG)
+![](/doc/res/_MG_4856.JPG)
 
 ## 📖 Dokumentation
 <!-- - [Mjölnir dokumentation](doc/) -->
@@ -33,7 +33,7 @@ Eine dekorative Leuchte angelehnt an Marvels Interpretation des Hammers Thors
 - [ ] [YT-Tutorial](https://www.youtube.com/watch?v=YQyN5y-gb6I) zur Verwendung der WLED Benutzeroberfläche
 
 ## 🖼️ Bilder
-<img src="/doc/_MG_4858.JPG" width="50%"><img src="/doc/_MG_4859.JPG" width="50%">
+<img src="/doc/res/_MG_4858.JPG" width="50%"><img src="/doc/res/_MG_4859.JPG" width="50%">
 
 ## 🔧 Fehlerbehebung
 | Problem | Erklärung | Lösungsansatz |
