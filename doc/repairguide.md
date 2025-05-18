@@ -25,7 +25,7 @@ https://github.com/user-attachments/assets/4af9b3b4-d7bc-4e28-bcf6-118e3d1298a7
 
 - Steckverbinder zwischen LED Boards lösen
 
-<img src="/doc/res/_MG_4890.svg" width="50%"><img src="/doc/res/_MG_4892.svg" width="50%">
+<img src="/doc/res/_MG_4890.jpg_" width="50%"><img src="/doc/res/_MG_4892.JPG" width="50%">
 
 ### 5. LED Boards entfernen
 
@@ -33,7 +33,7 @@ https://github.com/user-attachments/assets/4af9b3b4-d7bc-4e28-bcf6-118e3d1298a7
 
 https://github.com/user-attachments/assets/ced3f516-bf56-49fe-b68f-585f7b4db71a
 
-<img src="/doc/res/_MG_4896.svg">
+<img src="/doc/res/_MG_4896.JPG">
 
 ### 6. LEDs aus Griff entfernen
 
