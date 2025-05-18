@@ -9,4 +9,4 @@
 
 - Eingestecktes USB Kabel vorsichtig nach oben ziehen und Abdeckung lösen
 
-<video src="https://github.com/user-attachments/assets/f50e5ab3-72d0-4ee9-bd84-d6634508b304" width="50%"></video>
+https://github.com/user-attachments/assets/87b6fe2a-6ad5-4222-91ca-994627045406
