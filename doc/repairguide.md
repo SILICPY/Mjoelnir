@@ -1,6 +1,7 @@
 # Reparatur
 
 ## Öffnen des Hammerkopfes
+
 ### 1. Öffnen der Abdeckung
 - Schrauben der Abdeckung lösen
 
@@ -8,4 +9,4 @@
 
 - Eingestecktes USB Kabel vorsichtig nach oben ziehen und Abdeckung lösen
 
-<video src="/doc/res/open_cover.mp4" width="50%" controls>
+<video src="https://github.com/user-attachments/assets/f50e5ab3-72d0-4ee9-bd84-d6634508b304" width="50%"></video>
