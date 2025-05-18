@@ -57,7 +57,7 @@ https://github.com/user-attachments/assets/28b4ab3f-4345-4afb-bd30-a3cdea6a031f
 
 ### 2. Montage der LED Boards im Hammerkopf
 
-- Die LED Boards nacheinander so in Hammerkopf einsetzen, dass die drei mittigen LEDS in Richtung des Ornamentes zeigen
+- Die LED Boards nacheinander so in Hammerkopf einsetzen, dass die drei mittigen LEDs in Richtung des Ornamentes zeigen
 
 - **_Falls sich das LED Board nicht einsetzen lässt, versuche, wie im zweiten Teil des Videos gezeigt, das LED Board nach innen zu ziehen_**
 
