@@ -1,7 +1,7 @@
 # 🔨 Mjölnir
 Eine dekorative Leuchte angelehnt an Marvels Interpretation des Hammers Thors
 
-![](/doc/res/_MG_4856.JPG)
+<img src="/doc/res/_MG_4856.JPG" width="50%"><img src="/doc/res/_MG_4951.JPG" width="50%">
 
 ## 📖 Dokumentation
 <!-- - [Mjölnir dokumentation](doc/) -->
