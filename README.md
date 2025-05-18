@@ -1,10 +1,13 @@
 # 🔨 Mjölnir
 Eine dekorative Leuchte angelehnt an Marvels Interpretation des Hammers Thors
 
+![](doc/_MG_4856.JPG)
+
 ## 📖 Dokumentation
 <!-- - [Mjölnir dokumentation](doc/) -->
 - [WLED Dokumentation](https://kno.wled.ge/) - ESP32 LED Firmware
 - [LedFX Dokumentation](https://docs.ledfx.app/en/stable/) - Rhythmuserkennungssoftware
+- [Reparaturanleitung (WIP)](doc/repairguide.md)
 
 ## 🚀 Erste Schritte
 ### 🛠️ Systemkonfiguration
