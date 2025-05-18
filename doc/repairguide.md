@@ -53,11 +53,13 @@ https://github.com/user-attachments/assets/b0a4f914-e4c2-444a-b6bf-969ce0bceb53
 
 -  Die LEDs durch Sperre führen, um 90° drehen und im Griff positionieren
 
-https://github.com/user-attachments/assets/9323d7d4-76ba-4ae3-9d73-0e7071903da6
+https://github.com/user-attachments/assets/28b4ab3f-4345-4afb-bd30-a3cdea6a031f
 
-### 2. Montage der LED Boards inm Hammerkopf
+### 2. Montage der LED Boards im Hammerkopf
 
-- Die LED Boards nacheinander mit richtiger Orientation in Hammerkopf einsetzen
+- Die LED Boards nacheinander so in Hammerkopf einsetzen, dass die drei mittigen LEDS in Richtung des Ornamentes zeigen
+
+- **_Falls sich das LED Board nicht einsetzen lässt, versuche, wie im zweiten Teil des Videos gezeigt, das LED Board nach innen zu ziehen_**
 
 https://github.com/user-attachments/assets/b8407089-f7b8-45ab-b9c5-5b3aa16eaa49
 
@@ -67,19 +69,21 @@ https://github.com/user-attachments/assets/b8407089-f7b8-45ab-b9c5-5b3aa16eaa49
 
 <img src="/doc/res/_MG_4914.JPG" width="50%">
 
-- Verbinden der beiden unteren sowie der beiden oberen Steckverbindern
+- Verbinden der beiden unteren Steckverbinder der LED Boards
+
+- Verbinden der Buchse der LEDs im Griff mit dem noch freien Steckverbinder des LED Boards
 
 <img src="/doc/res/_MG_4915.JPG" width="50%">
 
 ### 4. Verbinden Platine mit Steckverbinder
 
-- Verbinden des Steckverbinders an der Platine mit dem abgesonderten Steckverbinder im Hammerkopf
+- Verbinden des Steckverbinders an der Platine mit der abgesonderten Buchse im Hammerkopf
 
 ### 5. Einbau der Platine sowie Verschluss
 
 - Platine in Hammerkopf schieben
 
-- Verschluss gegenüber der USB Aussparung einsetzen, herunterdrücken und in Richtung des USB Anschlusses schieben
+- Verschluss gegenüber der USB Aussparung einsetzen, herunterdrücken und in Richtung der USB Aussparung schieben
 
 - USB-C Breakout Platine in Aussparung des Verschlusses einsetzen
 
